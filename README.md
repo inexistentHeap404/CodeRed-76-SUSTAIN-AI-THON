@@ -5,7 +5,7 @@ Predicting river water potability is crucial for ensuring public health and envi
 ![workflow](workflow.jpeg)
 
 # Concept Map
-![]()
+![](conceptmap.jpeg)
 
 # Tech Stack
 ## Frontend
