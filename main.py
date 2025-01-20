@@ -88,10 +88,6 @@ if navigation == "Home":
     st.markdown("""
                  Know Your River's Health at a Glance
                 """)
-    st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/7/75/River_environment.jpg", 
-        use_container_width=True
-    )
 
 elif navigation == "Graphs":
     st.title("📊 Predicted Trends for River Health Parameters")
