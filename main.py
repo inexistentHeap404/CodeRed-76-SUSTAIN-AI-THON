@@ -85,8 +85,15 @@ navigation = st.sidebar.radio("Go to:", ["Home", "Graphs", "Water Potability Pre
 
 if navigation == "Home":
     st.title("🌊 Welcome to Flow Health Dashboard")
-    st.markdown("""
+    st.header("""
                  Know Your River's Health at a Glance
+                """)
+    st.markdown("""
+    "Flow Health" is an ambitious project focused on environmental sustainability, specifically targeting the salinity and cleanliness of Indian rivers. By leveraging the power of machine learning, this initiative aims to analyze vast datasets and deliver accurate, real-time insights into river health. The project aspires to provide actionable solutions for preserving water quality and ensuring the long-term sustainability of these vital water resources.  
+
+Flow Health seeks to empower policymakers, researchers, and local communities with data-driven tools to combat river pollution and salinity issues. Through predictive modeling and continuous monitoring, it can identify patterns, detect anomalies, and predict future changes in river conditions. This innovative approach aims to bridge the gap between advanced technology and environmental stewardship.  
+
+In addition to its technical focus, the project highlights the importance of community involvement and sustainable practices. By addressing critical water challenges, Flow Health hopes to contribute to India's broader environmental conservation efforts and support the global goal of sustainable development.
                 """)
 
 elif navigation == "Graphs":
